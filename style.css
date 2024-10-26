@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: monospace;
+    font-size: 18px;
+    background: #1d0316;
+    /* background-image: url(https://www.einerd.com.br/wp-content/uploads/2024/06/ben-10-movies-e1719207189917-890x445.jpg), url(https://cdn.europosters.eu/image/1300/posters/ben-10-warp-i3549.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: 0px 55px, 0px 105vh; */
+    color: aliceblue;
+}
+/* .overlay {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #141714de;
+    z-index: 0;
+    height: 198vh;
+    pointer-events: none;
+} */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+a {
+    color: #ff2fba;
+    text-decoration: none;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+nav {
+    /* background: linear-gradient(to left, #1b2712, #3c7911); */
+    background: #2c0120;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    padding: 0px 120px;
+    z-index: 1;
+    box-shadow: 0 0 20px #00000087;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    letter-spacing: 1.5px;
+    z-index: 1;
+}
+
+.meusite {
+    font-size: 21px;
+    /* opacity: 0; */
+    width: 0px;
+    /* height: 25px; */
+    overflow: hidden;
+    transition: 0.5s;
+    left: 125px;
+    z-index: 1;
+}
+
+a:hover {
+    color: #ff00d0;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-shadow: 0 0 2px #ff00e6;
+}
+
+.logo {
+    height: 50px;
+    transition: 0.4s;
+    position: absolute;
+    left: 100px;
+    z-index: 2;
+}
+
+.logo:hover {
+    left: 80px;
+    transform: rotate(130deg);
+}
+
+.log {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.log:hover {
+    gap: 10px;
+}
+
+.log:hover .meusite {
+    width: 150px;
+    margin: 10px;
+}
+.login {
+    border-radius: 10px;
+    margin-top: 70px;
+    width: 500px;
+    flex-wrap: wrap;
+    height: 500px;
+    background: #3E072F;
+    box-shadow: 0 0 10px #ff00a2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logtext {
+    margin: 17px;
+    letter-spacing: 3px;
+    color: #ff00a2;
+    text-shadow: 0 0 2px #ff00a2;
+}
